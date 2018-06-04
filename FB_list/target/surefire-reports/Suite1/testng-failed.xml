@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]" parallel="tests" data-provider-thread-count="1">
+  <test name="Can Login(failed)" parallel="tests">
+    <classes>
+      <class name="CountFriendsTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="FriendsCount"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- CountFriendsTest -->
+    </classes>
+  </test> <!-- Can Login(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
